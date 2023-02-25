@@ -1,0 +1,17 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    border: 0.5em solid rgb(203, 120, 11) ;
+    padding: 2em;
+    margin: 2em;
+}
+#tes{
+    border: 0.3em solid rgb(203, 120, 11) ;
+    margin: 2em;
+    display: inline-block;
+
+}
+
+
+
