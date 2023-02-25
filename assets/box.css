@@ -12,3 +12,11 @@ div{
     border-width: 5px 10px 15px 20px;
     border-color: red yellow green blue;
 }
+.awal{
+    /* padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+     */
+     padding: 5px 10px 15px 20px;
+}
