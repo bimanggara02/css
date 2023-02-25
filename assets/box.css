@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+}
+div{
+    border: 1rem solid salmon ;
+    width: 200px;
+    padding: 3rem;
+    margin: 1rem 5rem;
+}
+.awal{
+    border-style: dotted dashed solid double;
+    border-width: 5px 10px 15px 20px;
+    border-color: red yellow green blue;
+}
