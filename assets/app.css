@@ -1,24 +1,66 @@
 *{
     background-color: antiquewhite;
 }
+/* ini untuk gruping style */
 h1,h2,h3{
+    text-indent: 2rem;
     color:brown;
-    text-align: center;
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
 }
-p{
+.awal p{
     text-indent: 2rem;
 }
 #list1{
     color:#900;
     background-color: #B1B2FF;
 }
+/* ini untuk id */
 #list2{
     color: aqua;
     background-color:salmon;
 }
+/* ini untuk class */
 .maks{
     background-color:aqua;
 }
+/* direct descendent */
+/* direct descendent ini beguna agar tidak mengenai kedua div p, jadi berguna untuk lebih spesifik */
+.kedua > p{
+    background-color: #B1B2FF;
+}
+/* Descendant Selector */
+.kedua #dalem p{
+    background-color: blue;
+}
+.kedua button{
+    background-color: red;
+}
+/* Ajdacent Selector elemen yang bersebelahan */
+a + .yellow{
+    background-color: yellow;
+    font-size: large;
+}
+/* input selector */
+input[type="text"]{
+    color: red;
+}
+
+/* pseudo classes */
+h3:hover{
+    color: blue;
+}
+.kedua p:nth-last-child(2n){
+    background-color: sandybrown;
+}
+::selection {
+    color: red;
+    background: yellow;
+  }
+
+
+
+
+
+
