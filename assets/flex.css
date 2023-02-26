@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+}
+#container{
+    background-color: antiquewhite;
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+    border: 5px solid black;
+    /* display flex = flex secara otomatis mengatur lebar child, jadi yang perlu di atur adalah halaman utamanya  */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    /* flex-wrap disini berfungsi untuk menampilkan ukuran child yang sebenarnya */
+    flex-wrap: wrap;
+    align-items: center;
+    /* menampatkan posisi konten */
+    align-content: space-evenly;
+    /* menempatkan salah satu konten  */
+    align-self: center;
+
+}
+#container div{
+    margin: 1em;
+    width: 200px;
+    height: 200px;
+    /* flex-basis digunakan untuk mendefinisikan nilai awal(tingginya) */
+    flex-basis: 100px;
+    
+}
+/* flex-grow mengambil sisa element */
+/* div:nth-of-type(1){
+    flex-grow:1;
+} */
+/* flex-shrink mengecilkan lebih dulu */
+/* div:nth-of-type(1){
+    flex-shrink: 1;
+} */
+main{
+    width: 80%;
+    border: 1rem solid black;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+}
+main .sidebar{
+    background-color: blue;
+    /* flex:1 itu sama dengan flex-grow:1; */
+    flex: 1;
+}
+main .content{
+    background-color: antiquewhite;
+    /* flex:2 itu sama dengan flex-grow:2; */
+    flex: 2;
+}
+
+
+
+
+
+
+
+
+
