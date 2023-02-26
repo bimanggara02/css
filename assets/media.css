@@ -1,0 +1,133 @@
+li{
+    display: inline;
+}
+h1{
+    text-align: center;
+}
+
+/* @media screen and (min-width: 900px) and (max-width: 1200px) {
+    h1 {
+      color: brown;
+      font-size: xxx-large;
+    }
+  }
+@media screen and (min-width:600px) and (max-width: 900px) {
+    h1{
+        color: yellowgreen;
+        font-size: medium;
+    }
+}
+@media screen and (orientation: landscape){
+ body{
+    background-color: antiquewhite;
+ }
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+    background-color:burlywood;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: blueviolet;
+    }
+    li a{
+        display: block;
+        margin: 0;
+        color: chartreuse;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    body {
+        background-color:burlywood;
+    }
+    a{
+        justify-content: start;
+    }
+    #main {
+        width:90%;
+        margin: 0 auto;
+        border: 1px solid #c3c3c3;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 1em;
+      }
+      #main div {
+        width: 50px;
+        height: 30px;
+        
+      }
+}
+
+
+
+
+
+
+
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    body {
+        background-color:burlywood;
+    }
+
+    #main {
+        width:90%;
+        margin: 0 auto;
+        border: 1px solid #c3c3c3;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 1em;
+      }
+      #main div {
+        width: 50px;
+        height: 30px;
+        
+      }
+}
+  
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .menuBar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+        
+      }
+      img {
+        width: 5rem;
+        height: 5rem;
+        background-color: brown;
+        margin-right: 5rem;
+        
+      }
+      ol {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+      }
+      li {
+        padding: 5px
+      }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
+
+
+
+
+
+
